@@ -1,3 +1,7 @@
+# Temperature Converter
+# Programmer: Austin Long
+# Date: 1/28/2025
+
 # Look at line 17 first.
 # This program introduces a couple new concepts,
 # we'll be covering those in the weeks ahead
@@ -7,11 +11,9 @@ def temp_conversion(celsius):
     # The program should ask the user to enter a temperature in Celsius, then display the temperature converted to Fahrenheit.
 
     # Calculate the Fahrenheit equivalent.
-    fahrenheit = 0.0
-    ######################
-    # WRITE YOUR CODE HERE
-    ######################    
 
+    # Formula: (9/5)C + 32
+    fahrenheit = ((9.0/5.0) * celsius) + 32.0
 
     # Return the variable to the calling function
     return fahrenheit
